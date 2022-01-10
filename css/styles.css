@@ -91,7 +91,7 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: inherit;
+  color: #fff;
   background-color: currentColor;
   border: 0;
   opacity: 0.25;
@@ -11398,11 +11398,12 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-color: #000;
+  background-image: url("../assets/img/header-bg.png");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment:scroll;
   background-position: center center;
-  background-size: cover;
+  background-size:contain;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -11763,5 +11764,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer {
   text-align: center;
   font-size: 0.9rem;
+  height: 100%;
+  background-color: #000;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
